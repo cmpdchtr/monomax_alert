@@ -11,7 +11,7 @@ function playSound() {
     // console.log(minutes);
     console.log(now);
   
-    if (hours === 8 && minutes === 30 && ) {
+    if (hours === 8 && minutes === 30) {
       playSound();
     }
   }
