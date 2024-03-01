@@ -1,3 +1,5 @@
+const lesson1 = "hours === 8 && minutes === 30 && seconds === 1";
+
 function playSound() {
     const audio = new Audio("music.mp3"); // Замініть на шлях до вашого звукового файлу
     audio.play();
@@ -7,11 +9,10 @@ function playSound() {
     const now = new Date();
     const hours = now.getHours();
     const minutes = now.getMinutes();
-    // console.log(hours);
-    // console.log(minutes);
-    console.log(now);
+    const seconds = now.getSeconds();
+    console.log(hours + minutes + seconds);
   
-    if (hours === 8 && minutes === 30) {
+    if (lesson1) {
       playSound();
     }
   }
