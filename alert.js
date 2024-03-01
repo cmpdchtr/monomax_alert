@@ -7,8 +7,8 @@ function playSound() {
     const now = new Date();
     const hours = now.getHours();
     const minutes = now.getMinutes();
-    print(hours);
-    print(minutes);
+    console.log(hours);
+    console.log(minutes);
   
     if (hours === 19 && minutes === 6) {
       playSound();
