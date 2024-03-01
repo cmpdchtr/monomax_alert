@@ -12,7 +12,7 @@ function playSound() {
     const seconds = now.getSeconds();
     console.log(hours + " " + minutes + " " + seconds);
   
-    if (hours === 8 && minutes === 30 && seconds === 1 ) {
+    if (hours === 19 && minutes === 48 && seconds === 1 ) {
       playSound();
     }
   }
