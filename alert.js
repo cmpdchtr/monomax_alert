@@ -1,5 +1,5 @@
 function playSound() {
-    const audio = new Audio("sample-15s.mp3"); // Замініть на шлях до вашого звукового файлу
+    const audio = new Audio("music.mp3"); // Замініть на шлях до вашого звукового файлу
     audio.play();
   }
   
