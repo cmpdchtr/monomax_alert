@@ -10,7 +10,7 @@ function playSound() {
     console.log(hours);
     console.log(minutes);
   
-    if (hours === 19 && minutes === 6) {
+    if (hours === 19 && minutes === 13) {
       playSound();
     }
   }
